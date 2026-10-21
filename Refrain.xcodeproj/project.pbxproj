@@ -777,9 +777,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.refrain.triptych;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.watchkitapp;
 				PRODUCT_NAME = RefrainWatch;
 				SDKROOT = watchos;
@@ -816,9 +818,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.refrain.triptych;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.watchkitapp;
 				PRODUCT_NAME = RefrainWatch;
 				SDKROOT = watchos;

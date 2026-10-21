@@ -14,6 +14,7 @@
 		158D8FEA093CB962FE4FBC0A /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */; };
 		15CF7CF2113987A0619179D1 /* ThreadMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511A3E2A3F663899CAEAB9A /* ThreadMark.swift */; };
 		1835C2AEBCCBCBBC0F9848C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F287AB48471DB215C66BAD56 /* Assets.xcassets */; };
+		A11CE0A55E7C0DE000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11E0A55E7C0DE0000000001 /* Assets.xcassets */; };
 		321E95414483A4CAEB1BA427 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D4540849DE4D047F884C2 /* ShelfView.swift */; };
 		3934FA4005F6FD2E63BFE446 /* MarginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CA937CCD6061E133F8E92 /* MarginScreen.swift */; };
 		3E4B6D2B51910D76F350A55B /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */; };
@@ -123,6 +124,7 @@
 		E5558C9C73A305528DD1C58F /* Blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blank.swift; sourceTree = "<group>"; };
 		E73ECFC12CF90F8490B67FAC /* CaptureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureScreen.swift; sourceTree = "<group>"; };
 		E9E027A627FA5597AA48069B /* GalleryReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryReading.swift; sourceTree = "<group>"; };
+		F11E0A55E7C0DE0000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F287AB48471DB215C66BAD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77D7669DBD76EE0337D706C /* Refrain.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Refrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD6B7BF53E7171246CE65A2 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 		F7C3854FA7069C8FB9DF6D00 /* RefrainWatch */ = {
 			isa = PBXGroup;
 			children = (
+				F11E0A55E7C0DE0000000001 /* Assets.xcassets */,
 				C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */,
 			);
 			path = RefrainWatch;
@@ -454,6 +457,7 @@
 			buildConfigurationList = 4270369C4CD2E762FFE612C0 /* Build configuration list for PBXNativeTarget "RefrainWatch" */;
 			buildPhases = (
 				311A0248A70CF3A08C8D0962 /* Sources */,
+				B11D0A55E7C0DE0000000001 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -516,6 +520,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1835C2AEBCCBCBBC0F9848C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11D0A55E7C0DE0000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11CE0A55E7C0DE000000001 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

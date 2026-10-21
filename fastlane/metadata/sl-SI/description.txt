@@ -1,0 +1,15 @@
+Chickefrain je zasebni bralni zvezek za nekoga, ki želi obdržati vrstico, ko je knjiga končana. Shranite knjige, zapišite vrstice iz njih in vrstici pripnite eno besedo. Ko ista beseda stoji na treh različnih knjigah, Preplet za dan usede tri take vrstice.
+
+• Uvodne strani "Obdrži vrstico", "Preplet danes" in "Znova odpri dan".
+• Polica knjig z naslovom, avtorjem, napredkom po straneh, "Na polici" ali "Ni je" ter "Ponovno" ali "Enkrat".
+• "Dodaj knjigo" in "Dodaj vrstico", z izbirno stranjo in izbirno besedo.
+• "Shrani besedo" na vrstici. Ista beseda na treh knjigah pripravi "Preplet".
+• "Preplet" usede tri vrstice za dan. "Znova odpri" počisti to usedenje in besedo obdrži na vsaki vrstici.
+• "Dnevi" vsak dan pokažejo kot "Prazen", "Čaka", "Pripravljen" ali "Useden", z "Prepleti ta dan" in "Znova odpri ta dan".
+• "Števci" razvrstijo besede po številu vrstic, ki jih nosijo, in pokažejo "dni usedenih zapored". "Uporabi [beseda] pri Citatih" vrne k tej besedi.
+• "Deli povzetek" deli stavek s številom knjig, vrstic in usedenih dni.
+• "Znova pokaži uvod" in "Izbriši knjižnico".
+• "Stik" odpre stran za podporo.
+• Aplikacija za Apple Watch se prav tako imenuje "Chickefrain". Knjižnice na telefonu ne ureja. Njeni zasloni ostanejo stalni.
+
+Knjige, vrstice, besede in usedeni dnevi ostanejo na tej napravi. Samo angleščina, pokončno, na iPhonu in iPadu. Najmanj iOS 17.0. Aplikacija za uro potrebuje watchOS 26.0.

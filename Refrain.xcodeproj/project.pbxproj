@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0080F2AF7D432CFB5BA6C0E4 /* ThreadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA20FCF75A7A2A9EE3A3E21 /* ThreadScreen.swift */; };
+		068986B6DD4824F463CA567E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B75176EE474DF2051011A56A /* Alamofire */; };
+		0A7F932B7DA7108871F95030 /* Peel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DCCE3E198F8350D2C5219 /* Peel.swift */; };
+		0B2EA9EDF8377C051E31965C /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268217CF789D295B34C8EA3 /* Gallery.swift */; };
+		158D8FEA093CB962FE4FBC0A /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */; };
+		15CF7CF2113987A0619179D1 /* ThreadMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511A3E2A3F663899CAEAB9A /* ThreadMark.swift */; };
+		1835C2AEBCCBCBBC0F9848C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F287AB48471DB215C66BAD56 /* Assets.xcassets */; };
+		321E95414483A4CAEB1BA427 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D4540849DE4D047F884C2 /* ShelfView.swift */; };
+		3934FA4005F6FD2E63BFE446 /* MarginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CA937CCD6061E133F8E92 /* MarginScreen.swift */; };
+		3E4B6D2B51910D76F350A55B /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */; };
+		455E4D48195661C8456171F7 /* BareMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8511AA4E3BF8FCE85D86563 /* BareMark.swift */; };
+		50514D23E301C49B968E9F83 /* WeaveMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB013EC78AA14DFD537C32 /* WeaveMark.swift */; };
+		56910626DCC80C8E2A08901E /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF76B24FB8981BA6BFEB81 /* BookView.swift */; };
+		56B3AB8DEFAC46EAEA5D9EC5 /* Triptych.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7937579460BBC00A61CB /* Triptych.swift */; };
+		59A757CAEFF308A8E519F01C /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F04162B8563226184B4F /* ReviewLaunch.swift */; };
+		5DB573F36078A9574B8017BD /* GalleryArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85E8C0598FE9FE0A754AFD /* GalleryArchive.swift */; };
+		624C32E631863FD208110B12 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA5A142C5F1C7F52C875B4 /* QuotesView.swift */; };
+		65C121F7C36EEC86A364F5E1 /* RefrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323EE87D93EE14F01718CD91 /* RefrainApp.swift */; };
+		8514E18F3F6A8014CAD7FEDA /* RefrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4966A6FD3CBF9A3766A1B4 /* RefrainTests.swift */; };
+		8864786D48902E01FFA70B43 /* WeaveBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DBEEB3945BDCE601DD5DB /* WeaveBoard.swift */; };
+		8E3E00291868E0438B093F18 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6B7BF53E7171246CE65A2 /* APIConfig.swift */; };
+		8EA22359503F9A23BFA454B1 /* ThinMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CCDE22E2D509B01A05FFA /* ThinMark.swift */; };
+		96DD8D7B2D044BA404AC0061 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA732EDD3EB6738CD287DA /* OnboardingView.swift */; };
+		99285EAF2868ABFA27379B8E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B4F07880B6328B43E01A4 /* SettingsView.swift */; };
+		A1E3CA713BAA6BC79D1A1642 /* CaptureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73ECFC12CF90F8490B67FAC /* CaptureScreen.swift */; };
+		A73323B865C77752E7D1935D /* RefrainWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BC47F153E9703581AB95CE1A /* RefrainWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA945C5A2FDE023667EF2C27 /* GalleryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A161F6C94632E43C00FFF6 /* GalleryBoard.swift */; };
+		B1B7E55585E9507FD9395550 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32332C767E65613655A40324 /* Theme.swift */; };
+		B41E92BE8DF090BDAE3ACC9A /* Lemma.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C74076C2A13F3F6ED3827 /* Lemma.swift */; };
+		B5DFE91D9650EFAAB2107792 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD9D00F713BD07B71AB8CB /* DashboardView.swift */; };
+		BE89F0422C3CE7D597DB8E19 /* FoldScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985817C74A31D871C0A0BF2F /* FoldScreen.swift */; };
+		C3DC6F84A3A04EA6702006A9 /* Slip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675D989ECEEC1E1E2CD15CAD /* Slip.swift */; };
+		C68469ED66395179BA4E115F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DEDE26B8F2E11B56DA1C2 /* AppDelegate.swift */; };
+		C8F3C832830DED65C6EFDAD5 /* CoverDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE764A62207C41918339F595 /* CoverDestination.swift */; };
+		CA6003F654272884A5B0B1DA /* CommitHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130D498B7B8C70A21427C42E /* CommitHaptic.swift */; };
+		CE3A748BA333C55CDA71B280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516D32F75F93AB10B575248 /* ContentView.swift */; };
+		D75B99FAFBBDBDD73EE1645C /* ActionStripButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE582EB83622570E55BDE2 /* ActionStripButtonStyle.swift */; };
+		D91E3D941EE1702105E20AFE /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2B6944AD3C95F182F5C8D /* Panel.swift */; };
+		E538A4B001126242BEC2A400 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F04162B8563226184B4F /* ReviewLaunch.swift */; };
+		E996E8AE037A3DD23197DCC4 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E324B0E019C3B818BC152F /* Volume.swift */; };
+		EB78E26616B1A1A012A5D7D0 /* GalleryReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E027A627FA5597AA48069B /* GalleryReading.swift */; };
+		ED784A48CFAE2510D3642342 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */; };
+		EE0450409BECC05DE8B81E38 /* Blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5558C9C73A305528DD1C58F /* Blank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D959668CEC929D0AE7E79EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5272ECFFD7E700CD5CF406B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72955A1B38AF6866576F460B;
+			remoteInfo = Refrain;
+		};
+		82A8F1B4FD03C1A1A95DFA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5272ECFFD7E700CD5CF406B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F806CDDB6EE872DBC3731624;
+			remoteInfo = RefrainWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B64E1A24418E35DBBB108196 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A73323B865C77752E7D1935D /* RefrainWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11E324B0E019C3B818BC152F /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		130D498B7B8C70A21427C42E /* CommitHaptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitHaptic.swift; sourceTree = "<group>"; };
+		15CA5A142C5F1C7F52C875B4 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		1EAE582EB83622570E55BDE2 /* ActionStripButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionStripButtonStyle.swift; sourceTree = "<group>"; };
+		2511A3E2A3F663899CAEAB9A /* ThreadMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadMark.swift; sourceTree = "<group>"; };
+		277709EF970F2A6C2788A935 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Vendor/Alamofire; sourceTree = SOURCE_ROOT; };
+		32332C767E65613655A40324 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		323EE87D93EE14F01718CD91 /* RefrainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrainApp.swift; sourceTree = "<group>"; };
+		3516D32F75F93AB10B575248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3762F04162B8563226184B4F /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		433B4F07880B6328B43E01A4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4C85E8C0598FE9FE0A754AFD /* GalleryArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryArchive.swift; sourceTree = "<group>"; };
+		4CA20FCF75A7A2A9EE3A3E21 /* ThreadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadScreen.swift; sourceTree = "<group>"; };
+		4EDD9D00F713BD07B71AB8CB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		6268217CF789D295B34C8EA3 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		646DEDE26B8F2E11B56DA1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		675D989ECEEC1E1E2CD15CAD /* Slip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slip.swift; sourceTree = "<group>"; };
+		6D1D4540849DE4D047F884C2 /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		7FD2B6944AD3C95F182F5C8D /* Panel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panel.swift; sourceTree = "<group>"; };
+		85BB013EC78AA14DFD537C32 /* WeaveMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaveMark.swift; sourceTree = "<group>"; };
+		89CA732EDD3EB6738CD287DA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		93A161F6C94632E43C00FFF6 /* GalleryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryBoard.swift; sourceTree = "<group>"; };
+		985817C74A31D871C0A0BF2F /* FoldScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldScreen.swift; sourceTree = "<group>"; };
+		AE764A62207C41918339F595 /* CoverDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverDestination.swift; sourceTree = "<group>"; };
+		AE7C74076C2A13F3F6ED3827 /* Lemma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemma.swift; sourceTree = "<group>"; };
+		B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		BC47F153E9703581AB95CE1A /* RefrainWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefrainWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4CCDE22E2D509B01A05FFA /* ThinMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinMark.swift; sourceTree = "<group>"; };
+		C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRoot.swift; sourceTree = "<group>"; };
+		C7DF76B24FB8981BA6BFEB81 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		CA2D7937579460BBC00A61CB /* Triptych.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triptych.swift; sourceTree = "<group>"; };
+		CA9DCCE3E198F8350D2C5219 /* Peel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peel.swift; sourceTree = "<group>"; };
+		CB4966A6FD3CBF9A3766A1B4 /* RefrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrainTests.swift; sourceTree = "<group>"; };
+		D8511AA4E3BF8FCE85D86563 /* BareMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareMark.swift; sourceTree = "<group>"; };
+		DA6CA937CCD6061E133F8E92 /* MarginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginScreen.swift; sourceTree = "<group>"; };
+		E194061588BFCB57C81E1208 /* RefrainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RefrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5558C9C73A305528DD1C58F /* Blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blank.swift; sourceTree = "<group>"; };
+		E73ECFC12CF90F8490B67FAC /* CaptureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureScreen.swift; sourceTree = "<group>"; };
+		E9E027A627FA5597AA48069B /* GalleryReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryReading.swift; sourceTree = "<group>"; };
+		F287AB48471DB215C66BAD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77D7669DBD76EE0337D706C /* Refrain.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Refrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6B7BF53E7171246CE65A2 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		FF6DBEEB3945BDCE601DD5DB /* WeaveBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaveBoard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCF59DDD3E947667E9D65F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068986B6DD4824F463CA567E /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01093DBD207F2E3591AE4CED /* BareMark */ = {
+			isa = PBXGroup;
+			children = (
+				D8511AA4E3BF8FCE85D86563 /* BareMark.swift */,
+			);
+			path = BareMark;
+			sourceTree = "<group>";
+		};
+		010A357AA78065531563D49D /* Blank */ = {
+			isa = PBXGroup;
+			children = (
+				E5558C9C73A305528DD1C58F /* Blank.swift */,
+			);
+			path = Blank;
+			sourceTree = "<group>";
+		};
+		0A11EC68177D6F162B1012A7 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				4CA20FCF75A7A2A9EE3A3E21 /* ThreadScreen.swift */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		127C0FA259D43EFBA1DE1D81 = {
+			isa = PBXGroup;
+			children = (
+				71369FE68363A345F10263A3 /* Packages */,
+				5748E76902236178CD866160 /* Refrain */,
+				378271AFB1C5E856C9C9DCDF /* RefrainTests */,
+				F7C3854FA7069C8FB9DF6D00 /* RefrainWatch */,
+				5550B5E78008C6183E496755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA8FAFEC50A44B063E18ED2 /* ThreadMark */ = {
+			isa = PBXGroup;
+			children = (
+				2511A3E2A3F663899CAEAB9A /* ThreadMark.swift */,
+			);
+			path = ThreadMark;
+			sourceTree = "<group>";
+		};
+		23F91DB90B01305A50EE69BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AE764A62207C41918339F595 /* CoverDestination.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2B7B5210310006FB5A1325BD /* Peel */ = {
+			isa = PBXGroup;
+			children = (
+				CA9DCCE3E198F8350D2C5219 /* Peel.swift */,
+			);
+			path = Peel;
+			sourceTree = "<group>";
+		};
+		2D95109CB6B887418EBB667E /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				985817C74A31D871C0A0BF2F /* FoldScreen.swift */,
+			);
+			path = Fold;
+			sourceTree = "<group>";
+		};
+		35CAB50076B6CFB9039AF15C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				433B4F07880B6328B43E01A4 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		378271AFB1C5E856C9C9DCDF /* RefrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4966A6FD3CBF9A3766A1B4 /* RefrainTests.swift */,
+			);
+			path = RefrainTests;
+			sourceTree = "<group>";
+		};
+		5550B5E78008C6183E496755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77D7669DBD76EE0337D706C /* Refrain.app */,
+				E194061588BFCB57C81E1208 /* RefrainTests.xctest */,
+				BC47F153E9703581AB95CE1A /* RefrainWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5748E76902236178CD866160 /* Refrain */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6B7BF53E7171246CE65A2 /* APIConfig.swift */,
+				646DEDE26B8F2E11B56DA1C2 /* AppDelegate.swift */,
+				F287AB48471DB215C66BAD56 /* Assets.xcassets */,
+				3516D32F75F93AB10B575248 /* ContentView.swift */,
+				B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */,
+				323EE87D93EE14F01718CD91 /* RefrainApp.swift */,
+				3762F04162B8563226184B4F /* ReviewLaunch.swift */,
+				23F91DB90B01305A50EE69BD /* App */,
+				01093DBD207F2E3591AE4CED /* BareMark */,
+				010A357AA78065531563D49D /* Blank */,
+				6FB5A5A1DA73BC167A5B6B2E /* Dashboard */,
+				A27F95879712C556D0335582 /* DesignSystem */,
+				2D95109CB6B887418EBB667E /* Fold */,
+				99D6ED362004A02A9EC2ED16 /* Gallery */,
+				D5338923F03593503F4F99A4 /* Lemma */,
+				E28AE999A10044283C9E12BF /* Margin */,
+				D312E839C4CFC11606EA38AC /* Onboarding */,
+				E187C593765F5CF0E8F2C1B2 /* Panel */,
+				2B7B5210310006FB5A1325BD /* Peel */,
+				898FFCEC337103861E60029D /* Quotes */,
+				35CAB50076B6CFB9039AF15C /* Settings */,
+				AFE50F53C89642E2C216EF79 /* Shelf */,
+				87B6D202A1BD25B1516E66AD /* Slip */,
+				8E543D429AA65B84F3100E27 /* ThinMark */,
+				0A11EC68177D6F162B1012A7 /* Thread */,
+				1CA8FAFEC50A44B063E18ED2 /* ThreadMark */,
+				B6EB7966A592BD726CE529FE /* Triptych */,
+				5F234E42F8647247126FF395 /* Volume */,
+				E91E9F56C1E6965139524BE3 /* WeaveMark */,
+			);
+			path = Refrain;
+			sourceTree = "<group>";
+		};
+		5F234E42F8647247126FF395 /* Volume */ = {
+			isa = PBXGroup;
+			children = (
+				11E324B0E019C3B818BC152F /* Volume.swift */,
+			);
+			path = Volume;
+			sourceTree = "<group>";
+		};
+		6FB5A5A1DA73BC167A5B6B2E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4EDD9D00F713BD07B71AB8CB /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		71369FE68363A345F10263A3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				277709EF970F2A6C2788A935 /* Alamofire */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		87B6D202A1BD25B1516E66AD /* Slip */ = {
+			isa = PBXGroup;
+			children = (
+				675D989ECEEC1E1E2CD15CAD /* Slip.swift */,
+			);
+			path = Slip;
+			sourceTree = "<group>";
+		};
+		898FFCEC337103861E60029D /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				E9E027A627FA5597AA48069B /* GalleryReading.swift */,
+				15CA5A142C5F1C7F52C875B4 /* QuotesView.swift */,
+				FF6DBEEB3945BDCE601DD5DB /* WeaveBoard.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		8E543D429AA65B84F3100E27 /* ThinMark */ = {
+			isa = PBXGroup;
+			children = (
+				BE4CCDE22E2D509B01A05FFA /* ThinMark.swift */,
+			);
+			path = ThinMark;
+			sourceTree = "<group>";
+		};
+		99D6ED362004A02A9EC2ED16 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				6268217CF789D295B34C8EA3 /* Gallery.swift */,
+				4C85E8C0598FE9FE0A754AFD /* GalleryArchive.swift */,
+				93A161F6C94632E43C00FFF6 /* GalleryBoard.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		A27F95879712C556D0335582 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE582EB83622570E55BDE2 /* ActionStripButtonStyle.swift */,
+				130D498B7B8C70A21427C42E /* CommitHaptic.swift */,
+				32332C767E65613655A40324 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		AFE50F53C89642E2C216EF79 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				C7DF76B24FB8981BA6BFEB81 /* BookView.swift */,
+				E73ECFC12CF90F8490B67FAC /* CaptureScreen.swift */,
+				6D1D4540849DE4D047F884C2 /* ShelfView.swift */,
+			);
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		B6EB7966A592BD726CE529FE /* Triptych */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D7937579460BBC00A61CB /* Triptych.swift */,
+			);
+			path = Triptych;
+			sourceTree = "<group>";
+		};
+		D312E839C4CFC11606EA38AC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				89CA732EDD3EB6738CD287DA /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D5338923F03593503F4F99A4 /* Lemma */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C74076C2A13F3F6ED3827 /* Lemma.swift */,
+			);
+			path = Lemma;
+			sourceTree = "<group>";
+		};
+		E187C593765F5CF0E8F2C1B2 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				7FD2B6944AD3C95F182F5C8D /* Panel.swift */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		E28AE999A10044283C9E12BF /* Margin */ = {
+			isa = PBXGroup;
+			children = (
+				DA6CA937CCD6061E133F8E92 /* MarginScreen.swift */,
+			);
+			path = Margin;
+			sourceTree = "<group>";
+		};
+		E91E9F56C1E6965139524BE3 /* WeaveMark */ = {
+			isa = PBXGroup;
+			children = (
+				85BB013EC78AA14DFD537C32 /* WeaveMark.swift */,
+			);
+			path = WeaveMark;
+			sourceTree = "<group>";
+		};
+		F7C3854FA7069C8FB9DF6D00 /* RefrainWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */,
+			);
+			path = RefrainWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C2E8A542572AF95671B5F2 /* RefrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1627229A580601E8D573AD01 /* Build configuration list for PBXNativeTarget "RefrainTests" */;
+			buildPhases = (
+				00A6CEFDF60085A2D3756313 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7045966E20336403C1C5E4 /* PBXTargetDependency */,
+			);
+			name = RefrainTests;
+			packageProductDependencies = (
+			);
+			productName = RefrainTests;
+			productReference = E194061588BFCB57C81E1208 /* RefrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72955A1B38AF6866576F460B /* Refrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5DF8A785ECB31AFE2BF416 /* Build configuration list for PBXNativeTarget "Refrain" */;
+			buildPhases = (
+				393C4475FC06D72575460506 /* Sources */,
+				63B8A62E6DF6CF275F5237B3 /* Resources */,
+				3FCF59DDD3E947667E9D65F7 /* Frameworks */,
+				B64E1A24418E35DBBB108196 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6E0BEAC800A9E15ECD24C2 /* PBXTargetDependency */,
+			);
+			name = Refrain;
+			packageProductDependencies = (
+				B75176EE474DF2051011A56A /* Alamofire */,
+			);
+			productName = Refrain;
+			productReference = F77D7669DBD76EE0337D706C /* Refrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F806CDDB6EE872DBC3731624 /* RefrainWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4270369C4CD2E762FFE612C0 /* Build configuration list for PBXNativeTarget "RefrainWatch" */;
+			buildPhases = (
+				311A0248A70CF3A08C8D0962 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefrainWatch;
+			packageProductDependencies = (
+			);
+			productName = RefrainWatch;
+			productReference = BC47F153E9703581AB95CE1A /* RefrainWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5272ECFFD7E700CD5CF406B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26C2E8A542572AF95671B5F2 = {
+						ProvisioningStyle = Automatic;
+					};
+					72955A1B38AF6866576F460B = {
+						ProvisioningStyle = Automatic;
+					};
+					F806CDDB6EE872DBC3731624 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F327FD49BFA63ADCB99FBAD2 /* Build configuration list for PBXProject "Refrain" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 127C0FA259D43EFBA1DE1D81;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				645747411717D6E75B4892BC /* XCLocalSwiftPackageReference "Vendor/Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5550B5E78008C6183E496755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72955A1B38AF6866576F460B /* Refrain */,
+				F806CDDB6EE872DBC3731624 /* RefrainWatch */,
+				26C2E8A542572AF95671B5F2 /* RefrainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B8A62E6DF6CF275F5237B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835C2AEBCCBCBBC0F9848C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A6CEFDF60085A2D3756313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514E18F3F6A8014CAD7FEDA /* RefrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311A0248A70CF3A08C8D0962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED784A48CFAE2510D3642342 /* DesignTokens.swift in Sources */,
+				59A757CAEFF308A8E519F01C /* ReviewLaunch.swift in Sources */,
+				158D8FEA093CB962FE4FBC0A /* WatchRoot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393C4475FC06D72575460506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3E00291868E0438B093F18 /* APIConfig.swift in Sources */,
+				D75B99FAFBBDBDD73EE1645C /* ActionStripButtonStyle.swift in Sources */,
+				C68469ED66395179BA4E115F /* AppDelegate.swift in Sources */,
+				455E4D48195661C8456171F7 /* BareMark.swift in Sources */,
+				EE0450409BECC05DE8B81E38 /* Blank.swift in Sources */,
+				56910626DCC80C8E2A08901E /* BookView.swift in Sources */,
+				A1E3CA713BAA6BC79D1A1642 /* CaptureScreen.swift in Sources */,
+				CA6003F654272884A5B0B1DA /* CommitHaptic.swift in Sources */,
+				CE3A748BA333C55CDA71B280 /* ContentView.swift in Sources */,
+				C8F3C832830DED65C6EFDAD5 /* CoverDestination.swift in Sources */,
+				B5DFE91D9650EFAAB2107792 /* DashboardView.swift in Sources */,
+				3E4B6D2B51910D76F350A55B /* DesignTokens.swift in Sources */,
+				BE89F0422C3CE7D597DB8E19 /* FoldScreen.swift in Sources */,
+				0B2EA9EDF8377C051E31965C /* Gallery.swift in Sources */,
+				5DB573F36078A9574B8017BD /* GalleryArchive.swift in Sources */,
+				AA945C5A2FDE023667EF2C27 /* GalleryBoard.swift in Sources */,
+				EB78E26616B1A1A012A5D7D0 /* GalleryReading.swift in Sources */,
+				B41E92BE8DF090BDAE3ACC9A /* Lemma.swift in Sources */,
+				3934FA4005F6FD2E63BFE446 /* MarginScreen.swift in Sources */,
+				96DD8D7B2D044BA404AC0061 /* OnboardingView.swift in Sources */,
+				D91E3D941EE1702105E20AFE /* Panel.swift in Sources */,
+				0A7F932B7DA7108871F95030 /* Peel.swift in Sources */,
+				624C32E631863FD208110B12 /* QuotesView.swift in Sources */,
+				65C121F7C36EEC86A364F5E1 /* RefrainApp.swift in Sources */,
+				E538A4B001126242BEC2A400 /* ReviewLaunch.swift in Sources */,
+				99285EAF2868ABFA27379B8E /* SettingsView.swift in Sources */,
+				321E95414483A4CAEB1BA427 /* ShelfView.swift in Sources */,
+				C3DC6F84A3A04EA6702006A9 /* Slip.swift in Sources */,
+				B1B7E55585E9507FD9395550 /* Theme.swift in Sources */,
+				8EA22359503F9A23BFA454B1 /* ThinMark.swift in Sources */,
+				15CF7CF2113987A0619179D1 /* ThreadMark.swift in Sources */,
+				0080F2AF7D432CFB5BA6C0E4 /* ThreadScreen.swift in Sources */,
+				56B3AB8DEFAC46EAEA5D9EC5 /* Triptych.swift in Sources */,
+				E996E8AE037A3DD23197DCC4 /* Volume.swift in Sources */,
+				8864786D48902E01FFA70B43 /* WeaveBoard.swift in Sources */,
+				50514D23E301C49B968E9F83 /* WeaveMark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6E0BEAC800A9E15ECD24C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F806CDDB6EE872DBC3731624 /* RefrainWatch */;
+			targetProxy = 82A8F1B4FD03C1A1A95DFA5D /* PBXContainerItemProxy */;
+		};
+		DD7045966E20336403C1C5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72955A1B38AF6866576F460B /* Refrain */;
+			targetProxy = 0D959668CEC929D0AE7E79EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4619BF37C90B0DD0B1F5B184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Refrain";
+			};
+			name = Release;
+		};
+		549D2CD0BCE69EBB6AA39A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		590150F330B4DF9FF6C60409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		7B317102F58E9FFC08E51950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych;
+				PRODUCT_NAME = Refrain;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AE2E17AD36AF8B868F0A036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.refrain.triptych;
+				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.watchkitapp;
+				PRODUCT_NAME = RefrainWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		94B774D59056BA4C82536FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Refrain";
+			};
+			name = Debug;
+		};
+		DDF874304C7AB1DA603C993D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.refrain.triptych;
+				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.watchkitapp;
+				PRODUCT_NAME = RefrainWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		E0D686A6E096D3DF3DF72FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych;
+				PRODUCT_NAME = Refrain;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1627229A580601E8D573AD01 /* Build configuration list for PBXNativeTarget "RefrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B774D59056BA4C82536FD3 /* Debug */,
+				4619BF37C90B0DD0B1F5B184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4270369C4CD2E762FFE612C0 /* Build configuration list for PBXNativeTarget "RefrainWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF874304C7AB1DA603C993D /* Debug */,
+				8AE2E17AD36AF8B868F0A036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE5DF8A785ECB31AFE2BF416 /* Build configuration list for PBXNativeTarget "Refrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B317102F58E9FFC08E51950 /* Debug */,
+				E0D686A6E096D3DF3DF72FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F327FD49BFA63ADCB99FBAD2 /* Build configuration list for PBXProject "Refrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549D2CD0BCE69EBB6AA39A01 /* Debug */,
+				590150F330B4DF9FF6C60409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		645747411717D6E75B4892BC /* XCLocalSwiftPackageReference "Vendor/Alamofire" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/Alamofire;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B75176EE474DF2051011A56A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5272ECFFD7E700CD5CF406B4 /* Project object */;
+}

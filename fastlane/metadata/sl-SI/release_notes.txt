@@ -1,0 +1,11 @@
+Različica 1.0 je prva izdaja aplikacije Chickefrain, zasebnega bralnega zvezka.
+
+• Uvodne strani "Obdrži vrstico", "Preplet danes" in "Znova odpri dan".
+• Knjige shranite na "Polici" z naslovom, avtorjem in stranmi. Knjigo označite "Na polici" ali "Ni je" ter "Enkrat" ali "Ponovno".
+• "Dodaj vrstico" z izbirno stranjo in izbirno besedo. "Shrani besedo" na vrstici.
+• Ista beseda na treh knjigah pripravi "Preplet". "Preplet" usede tri vrstice za dan. "Znova odpri" počisti to usedenje in besedo obdrži na vsaki vrstici.
+• "Dnevi" vsak dan pokažejo kot "Prazen", "Čaka", "Pripravljen" ali "Useden", z "Prepleti ta dan" in "Znova odpri ta dan".
+• "Števci" razvrstijo besede po številu vrstic, ki jih nosijo, in pokažejo "dni usedenih zapored". "Uporabi [beseda] pri Citatih" vrne k tej besedi.
+• "Deli povzetek" deli stavek s številom knjig, vrstic in usedenih dni.
+• "Znova pokaži uvod", "Izbriši knjižnico" in "Stik" v "Nastavitvah".
+• Spremljevalna aplikacija za Apple Watch kaže stalne zaslone in knjižnice na telefonu ne ureja.

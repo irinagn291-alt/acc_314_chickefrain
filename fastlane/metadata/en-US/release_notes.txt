@@ -1,0 +1,11 @@
+Version 1.0 is the first release of Chickefrain, a private reading notebook.
+
+• Intro pages "Keep the line", "Weave today", and "Reopen the day".
+• Save books on "Shelf" with title, author, and pages. Mark a book "On shelf" or "Gone", and "Once" or "Reread".
+• "Add a line" with an optional page and an optional word. "Save a word" on a line.
+• The same word on three books makes "Weave" ready. "Weave" seats three lines for the day. "Reopen" clears that seating and keeps the word on each line.
+• "Days" lists each day as "Empty", "Waiting", "Ready", or "Seated", with "Weave this day" and "Reopen this day".
+• "Counts" ranks words by how many lines carry them and shows "days seated in a row". "Use [word] on Quotes" returns to that word.
+• "Share summary" shares a sentence of book, line, and seated-day counts.
+• "Show intro again", "Delete library", and "Contact" in "Settings".
+• A companion Apple Watch app shows fixed screens and does not edit the phone library.

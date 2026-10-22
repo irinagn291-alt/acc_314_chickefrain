@@ -1,4 +1,4 @@
-<!-- gf-brief source=f4166e22e98648795b5ddd3646412075eff7e0305c69a8a3f899c93d1e978145 written=2026-10-22T02:22:43+03:00 -->
+<!-- gf-brief source=f4166e22e98648795b5ddd3646412075eff7e0305c69a8a3f899c93d1e978145 written=2026-10-22T02:48:23+03:00 -->
 # Chickefrain
 ## What it is
 Chickefrain is a private reading notebook for someone who wants to keep a line after the book is finished. You save books, write lines from them, and attach one word to a line. When the same word sits on three different books, Weave seats three of those lines for the day.

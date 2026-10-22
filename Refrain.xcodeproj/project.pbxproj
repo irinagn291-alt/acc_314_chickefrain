@@ -11,10 +11,8 @@
 		068986B6DD4824F463CA567E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B75176EE474DF2051011A56A /* Alamofire */; };
 		0A7F932B7DA7108871F95030 /* Peel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9DCCE3E198F8350D2C5219 /* Peel.swift */; };
 		0B2EA9EDF8377C051E31965C /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268217CF789D295B34C8EA3 /* Gallery.swift */; };
-		158D8FEA093CB962FE4FBC0A /* WatchRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */; };
 		15CF7CF2113987A0619179D1 /* ThreadMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511A3E2A3F663899CAEAB9A /* ThreadMark.swift */; };
 		1835C2AEBCCBCBBC0F9848C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F287AB48471DB215C66BAD56 /* Assets.xcassets */; };
-		A11CE0A55E7C0DE000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11E0A55E7C0DE0000000001 /* Assets.xcassets */; };
 		321E95414483A4CAEB1BA427 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D4540849DE4D047F884C2 /* ShelfView.swift */; };
 		3934FA4005F6FD2E63BFE446 /* MarginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CA937CCD6061E133F8E92 /* MarginScreen.swift */; };
 		3E4B6D2B51910D76F350A55B /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */; };
@@ -22,7 +20,6 @@
 		50514D23E301C49B968E9F83 /* WeaveMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB013EC78AA14DFD537C32 /* WeaveMark.swift */; };
 		56910626DCC80C8E2A08901E /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF76B24FB8981BA6BFEB81 /* BookView.swift */; };
 		56B3AB8DEFAC46EAEA5D9EC5 /* Triptych.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7937579460BBC00A61CB /* Triptych.swift */; };
-		59A757CAEFF308A8E519F01C /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F04162B8563226184B4F /* ReviewLaunch.swift */; };
 		5DB573F36078A9574B8017BD /* GalleryArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85E8C0598FE9FE0A754AFD /* GalleryArchive.swift */; };
 		624C32E631863FD208110B12 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA5A142C5F1C7F52C875B4 /* QuotesView.swift */; };
 		65C121F7C36EEC86A364F5E1 /* RefrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323EE87D93EE14F01718CD91 /* RefrainApp.swift */; };
@@ -33,7 +30,6 @@
 		96DD8D7B2D044BA404AC0061 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA732EDD3EB6738CD287DA /* OnboardingView.swift */; };
 		99285EAF2868ABFA27379B8E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B4F07880B6328B43E01A4 /* SettingsView.swift */; };
 		A1E3CA713BAA6BC79D1A1642 /* CaptureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73ECFC12CF90F8490B67FAC /* CaptureScreen.swift */; };
-		A73323B865C77752E7D1935D /* RefrainWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BC47F153E9703581AB95CE1A /* RefrainWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA945C5A2FDE023667EF2C27 /* GalleryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A161F6C94632E43C00FFF6 /* GalleryBoard.swift */; };
 		B1B7E55585E9507FD9395550 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32332C767E65613655A40324 /* Theme.swift */; };
 		B41E92BE8DF090BDAE3ACC9A /* Lemma.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C74076C2A13F3F6ED3827 /* Lemma.swift */; };
@@ -49,7 +45,6 @@
 		E538A4B001126242BEC2A400 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762F04162B8563226184B4F /* ReviewLaunch.swift */; };
 		E996E8AE037A3DD23197DCC4 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E324B0E019C3B818BC152F /* Volume.swift */; };
 		EB78E26616B1A1A012A5D7D0 /* GalleryReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E027A627FA5597AA48069B /* GalleryReading.swift */; };
-		ED784A48CFAE2510D3642342 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */; };
 		EE0450409BECC05DE8B81E38 /* Blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5558C9C73A305528DD1C58F /* Blank.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,28 +56,7 @@
 			remoteGlobalIDString = 72955A1B38AF6866576F460B;
 			remoteInfo = Refrain;
 		};
-		82A8F1B4FD03C1A1A95DFA5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5272ECFFD7E700CD5CF406B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F806CDDB6EE872DBC3731624;
-			remoteInfo = RefrainWatch;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B64E1A24418E35DBBB108196 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				A73323B865C77752E7D1935D /* RefrainWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		11E324B0E019C3B818BC152F /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
@@ -111,9 +85,7 @@
 		AE764A62207C41918339F595 /* CoverDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverDestination.swift; sourceTree = "<group>"; };
 		AE7C74076C2A13F3F6ED3827 /* Lemma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemma.swift; sourceTree = "<group>"; };
 		B346A3F4773EA8684B41F5C6 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
-		BC47F153E9703581AB95CE1A /* RefrainWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefrainWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4CCDE22E2D509B01A05FFA /* ThinMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinMark.swift; sourceTree = "<group>"; };
-		C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRoot.swift; sourceTree = "<group>"; };
 		C7DF76B24FB8981BA6BFEB81 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		CA2D7937579460BBC00A61CB /* Triptych.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triptych.swift; sourceTree = "<group>"; };
 		CA9DCCE3E198F8350D2C5219 /* Peel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peel.swift; sourceTree = "<group>"; };
@@ -124,7 +96,6 @@
 		E5558C9C73A305528DD1C58F /* Blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blank.swift; sourceTree = "<group>"; };
 		E73ECFC12CF90F8490B67FAC /* CaptureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureScreen.swift; sourceTree = "<group>"; };
 		E9E027A627FA5597AA48069B /* GalleryReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryReading.swift; sourceTree = "<group>"; };
-		F11E0A55E7C0DE0000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F287AB48471DB215C66BAD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77D7669DBD76EE0337D706C /* Refrain.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Refrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD6B7BF53E7171246CE65A2 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
@@ -173,7 +144,6 @@
 				71369FE68363A345F10263A3 /* Packages */,
 				5748E76902236178CD866160 /* Refrain */,
 				378271AFB1C5E856C9C9DCDF /* RefrainTests */,
-				F7C3854FA7069C8FB9DF6D00 /* RefrainWatch */,
 				5550B5E78008C6183E496755 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -231,7 +201,6 @@
 			children = (
 				F77D7669DBD76EE0337D706C /* Refrain.app */,
 				E194061588BFCB57C81E1208 /* RefrainTests.xctest */,
-				BC47F153E9703581AB95CE1A /* RefrainWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,15 +369,6 @@
 			path = WeaveMark;
 			sourceTree = "<group>";
 		};
-		F7C3854FA7069C8FB9DF6D00 /* RefrainWatch */ = {
-			isa = PBXGroup;
-			children = (
-				F11E0A55E7C0DE0000000001 /* Assets.xcassets */,
-				C498ADD8CCE8E3E80D67E848 /* WatchRoot.swift */,
-			);
-			path = RefrainWatch;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -437,12 +397,10 @@
 				393C4475FC06D72575460506 /* Sources */,
 				63B8A62E6DF6CF275F5237B3 /* Resources */,
 				3FCF59DDD3E947667E9D65F7 /* Frameworks */,
-				B64E1A24418E35DBBB108196 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CF6E0BEAC800A9E15ECD24C2 /* PBXTargetDependency */,
 			);
 			name = Refrain;
 			packageProductDependencies = (
@@ -450,24 +408,6 @@
 			);
 			productName = Refrain;
 			productReference = F77D7669DBD76EE0337D706C /* Refrain.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F806CDDB6EE872DBC3731624 /* RefrainWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4270369C4CD2E762FFE612C0 /* Build configuration list for PBXNativeTarget "RefrainWatch" */;
-			buildPhases = (
-				311A0248A70CF3A08C8D0962 /* Sources */,
-				B11D0A55E7C0DE0000000001 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RefrainWatch;
-			packageProductDependencies = (
-			);
-			productName = RefrainWatch;
-			productReference = BC47F153E9703581AB95CE1A /* RefrainWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -483,9 +423,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					72955A1B38AF6866576F460B = {
-						ProvisioningStyle = Automatic;
-					};
-					F806CDDB6EE872DBC3731624 = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -508,7 +445,6 @@
 			projectRoot = "";
 			targets = (
 				72955A1B38AF6866576F460B /* Refrain */,
-				F806CDDB6EE872DBC3731624 /* RefrainWatch */,
 				26C2E8A542572AF95671B5F2 /* RefrainTests */,
 			);
 		};
@@ -523,14 +459,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B11D0A55E7C0DE0000000001 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A11CE0A55E7C0DE000000001 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -539,16 +467,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8514E18F3F6A8014CAD7FEDA /* RefrainTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		311A0248A70CF3A08C8D0962 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED784A48CFAE2510D3642342 /* DesignTokens.swift in Sources */,
-				59A757CAEFF308A8E519F01C /* ReviewLaunch.swift in Sources */,
-				158D8FEA093CB962FE4FBC0A /* WatchRoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,11 +516,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CF6E0BEAC800A9E15ECD24C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F806CDDB6EE872DBC3731624 /* RefrainWatch */;
-			targetProxy = 82A8F1B4FD03C1A1A95DFA5D /* PBXContainerItemProxy */;
-		};
 		DD7045966E20336403C1C5E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 72955A1B38AF6866576F460B /* Refrain */;
@@ -688,11 +601,11 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.2;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
@@ -745,11 +658,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 6.2;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
@@ -761,7 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickefrain;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -784,26 +697,6 @@
 			};
 			name = Debug;
 		};
-		8AE2E17AD36AF8B868F0A036 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.refrain.triptych;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.watchkitapp;
-				PRODUCT_NAME = RefrainWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_STRICT_CONCURRENCY = complete;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
-			};
-			name = Release;
-		};
 		94B774D59056BA4C82536FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -825,26 +718,6 @@
 			};
 			name = Debug;
 		};
-		DDF874304C7AB1DA603C993D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.refrain.triptych;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.refrain.triptych.watchkitapp;
-				PRODUCT_NAME = RefrainWatch;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_STRICT_CONCURRENCY = complete;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
-			};
-			name = Debug;
-		};
 		E0D686A6E096D3DF3DF72FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -853,7 +726,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Refrain;
+				INFOPLIST_KEY_CFBundleDisplayName = Chickefrain;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -884,15 +757,6 @@
 			buildConfigurations = (
 				94B774D59056BA4C82536FD3 /* Debug */,
 				4619BF37C90B0DD0B1F5B184 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		4270369C4CD2E762FFE612C0 /* Build configuration list for PBXNativeTarget "RefrainWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDF874304C7AB1DA603C993D /* Debug */,
-				8AE2E17AD36AF8B868F0A036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
